@@ -1,0 +1,55 @@
+# Versión extendida con historia real de CONALEP, sección de contacto e imágenes agregadas
+
+extended_html = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40 Aniversario CONALEP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4fdf9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #006633, #00cc99);
+            color: white;
+            text-align: center;
+            padding: 3em 1em;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0.2em 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2em;
+        }
+        .timeline {
+            border-left: 4px solid #00cc99;
+            padding-left: 1em;
+        }
+        .timeline-event {
+            margin-bottom: 1em;
+        }
+        .timeline-event h4 {
+            margin: 0;
+            color: #006633;
+        }
+        .gallery {
+            display: grid
